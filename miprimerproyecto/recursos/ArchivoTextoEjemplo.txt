@@ -1,0 +1,4 @@
+dentro de la carpeta recursos se crea un archivo
+Ojo
+*linea que arranca con *
+Cuarta linea

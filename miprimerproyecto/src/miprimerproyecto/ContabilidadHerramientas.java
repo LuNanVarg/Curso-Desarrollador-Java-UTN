@@ -1,5 +1,3 @@
-sis
-
 package miprimerproyecto;
 
 import java.util.Scanner;

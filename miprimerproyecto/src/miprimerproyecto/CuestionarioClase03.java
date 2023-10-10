@@ -21,6 +21,11 @@ public class CuestionarioClase03 {
 		  System.out.println(numeros[i]);
 		  }
 		  }
+		// Pregunta N°3
+		// No se puede escribir la letra contrabarra "\" en una cadena
+		// ya que es el carácter de "escape" (Falso)
+		// Es doble "\\" 
+		
 		  
 		  // Pregunta N°4
 		  String elResultado= "hola que tal?".toUpperCase().replace("hola","chau");
