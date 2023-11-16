@@ -1,4 +1,4 @@
-package EjercicioClase05.copy;
+package miprimerproyecto.tarea05;
 
 import java.time.LocalDate;
 
