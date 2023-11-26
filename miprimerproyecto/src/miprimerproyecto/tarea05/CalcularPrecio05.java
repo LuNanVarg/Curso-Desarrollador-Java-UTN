@@ -1,4 +1,4 @@
-package miprimerproyecto;
+package miprimerproyecto.tarea05;
 
 import miprimerproyecto.entidades.ItemCarrito;
 import miprimerproyecto.entidades.Producto05;

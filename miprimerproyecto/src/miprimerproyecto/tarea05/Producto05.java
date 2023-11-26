@@ -13,17 +13,41 @@ public class Producto05 {
 		
 		private static final Double minPrecio = 5.5;
 		
-		public Producto (String nombre){
-			this.nombre = nombre;
-			this.fechaAlta = LocalDate.now();
-			this.precioUnitario = minPrecio;
+		public Producto05 (String nombre){
+			this.setNombre(nombre);
+			this.setFechaAlta(LocalDate.now());
+			this.setPrecioUnitario(minPrecio);
 		}
 		
-		public Producto (String nombre, Double precioUnitario) {
+		public Producto05 (String nombre, Double precioUnitario) {
 			this.setNombre(nombre);
 			this.setPrecio(precioUnitario);
 			this.setFechaAlta(LocalDate.now());
 			
+		}
+
+		public String getNombre() {
+			return nombre;
+		}
+
+		public void setNombre(String nombre) {
+			this.nombre = nombre;
+		}
+
+		public LocalDate getFechaAlta() {
+			return fechaAlta;
+		}
+
+		public void setFechaAlta(LocalDate fechaAlta) {
+			this.fechaAlta = fechaAlta;
+		}
+
+		public Double getPrecioUnitario() {
+			return precioUnitario;
+		}
+
+		public void setPrecioUnitario(Double precioUnitario) {
+			this.precioUnitario = precioUnitario;
 		}
 		
 	

@@ -6,20 +6,18 @@ import miprimerproyecto.entidades.Persona;
 import miprimerproyecto.entidades.Producto;
 
 public class CarritoDeCompras05 {
-	
-private Persona persona;
+
 	
 	private Producto producto1;
 	private Producto producto2;
 	private Producto producto3;
 	private LocalDate fechaCompra;
 	
-	public Carrito() {
+	public CarritoDeCompras05() {
 		this.fechaCompra = LocalDate.now();
 	}
 	
-	public Carrito(Persona persona, Producto producto1, Producto producto2, Producto producto3) {
-		this.setPersona(persona);
+	public CarritoDeCompras05(Producto producto1, Producto producto2, Producto producto3) {
 		this.setProducto1(producto1);
 		this.setProducto2(producto2);
 		this.setProducto3(producto3);
